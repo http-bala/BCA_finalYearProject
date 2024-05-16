@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .employee-details {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .employee-details h2 {
+            background-color: #685DD8;
+            color: #fff;
+            padding: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .detail {
+            margin-bottom: 10px;
+            /* display: inline-block; */
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .detail label {
+            font-weight: bold;
+            color: #685DD8;
+        }
+
+        .detail span {
+            display: block;
+            color: #333;
+            /* margin-top: 5px; */
+        }
+
+         img{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5 w-75 ">
+    <div class="employee-details ">
+        <h2 class="mb-4">Employee Details</h2>
+        <div class="row px-5 ">
+            <div class="col-6 mt-5">
+                <div class="detail">
+                    <label for="employee Name">employee name:</label>
+                    <span>balakrishna kolla</span>
+                </div>
+                <div class="detail">
+                    <label for="employee Name">employee name:</label>
+                    <span>balakrishna kolla</span>
+                </div>
+                <div class="detail">
+                    <label for="employee Name">employee name:</label>
+                    <span>balakrishna kolla</span>
+                </div>
+                <div class="detail">
+                    <label for="employee Name">employee name:</label>
+                    <span>balakrishna kolla</span>
+                </div>
+                <div class="detail">
+                    <label for="employee Name">employee name:</label>
+                    <span>balakrishna kolla</span>
+                </div>
+            </div>
+            <div class="col-6 ">
+                <div class="img">
+                    <img src="./imagavtar.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div> 
+        <div class="row px-5">
+            <div class="col-md-6">
+                <div class="detail">
+                    <label for="department">Department:</label>
+                    <span id="department">IT</span>
+                </div>
+                <div class="detail">
+                    <label for="shift">Shift:</label>
+                    <span id="shift">Day Shift</span>
+                </div>
+                <div class="detail">
+                    <label for="pan-number">PAN Number:</label>
+                    <span id="pan-number">ABCDE1234F</span>
+                </div>
+                <div class="detail">
+                    <label for="dob">Date of Birth:</label>
+                    <span id="dob">01-01-1990</span>
+                </div>
+                <div class="detail">
+                    <label for="date-of-joining">Date of Joining:</label>
+                    <span id="date-of-joining">01-01-2015</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="detail">
+                    <label for="email">Email:</label>
+                    <span id="email">johndoe@example.com</span>
+                </div>
+                <div class="detail">
+                    <label for="bank-name">Bank Name:</label>
+                    <span id="bank-name">ABC Bank</span>
+                </div>
+                <div class="detail">
+                    <label for="bank-account">Bank Account No:</label>
+                    <span id="bank-account">1234567890</span>
+                </div>
+                <div class="detail">
+                    <label for="total-pays-days">Total Pays Days:</label>
+                    <span id="total-pays-days">20</span>
+                </div>
+                <div class="detail">
+                    <label for="basic-salary">Basic Salary:</label>
+                    <span id="basic-salary">$5000</span>
+                </div>
+                <!-- Add more details here -->
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3 mx-5  " onclick="printEmployeeDetails()">Print Details</button>
+    </div>
+</div>
+
+<!-- Bootstrap JS (Optional - if you're using JavaScript features from Bootstrap) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function printEmployeeDetails() {
+        window.print();
+    }
+</script>
+
+</body>
+</html>
