@@ -18,5 +18,4 @@ Rest assured, your data is safe with FVMS. We prioritize security and reliabilit
 FVMS is an open-source project, built on the principles of transparency and collaboration. Join our community of developers, contribute to the project, and help shape the future of field operations management. Together, we can drive innovation and empower organizations worldwide.
 
 Ready to take your field operations to the next level? Get started with FVMS today!
-
-🔗 **Explore FVMS**: [Link to FVMS Repository]
+🔗 **Explore FVMS**: [Not now Avilable in feature i will added the link]
