@@ -1,4 +1,4 @@
-# 🚀 Welcome to Field Visit Management System (FVMS) 🚀
+# 🚀 Welcome to Field Visit Management System (FVMS) 
 
 FVMS is a cutting-edge solution designed to revolutionize field operations management. With its powerful geo-location feature and integrated attendance module, FVMS empowers organizations to streamline field visit processes, enhance operational efficiency, and maximize productivity.
 
